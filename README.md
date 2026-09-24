@@ -1,6 +1,6 @@
 # The Power — academia de musculação em Pirituba
 
-Site de demonstração estático para a unidade da The Power na Vila Pereira Barreto, em São Paulo. Modo padrão, com direção visual baseada em `Framer` (tela escura, tipografia de pôster, gradientes e botões claros em pílula). O coral e o monograma `TP` são conceitos provisórios; a identidade oficial precisa ser confirmada.
+Site de demonstração estático para a unidade da The Power na Vila Pereira Barreto, em São Paulo. Modo padrão, com direção visual baseada em `Framer`, tela escura, símbolo de pose dupla de bíceps e cores vermelho e amarelo inspirados na referência enviada pelo usuário.
 
 ## Informações confirmadas
 
@@ -22,7 +22,9 @@ Site de demonstração estático para a unidade da The Power na Vila Pereira Bar
 - O Google Maps aponta para a [página da academia na GeoLista](https://geolista.com.br/empresa/academia-the-power-academia-de-musculacao-pirituba/), que abriu em 24/09/2026 (HTTP 200). É um diretório de terceiros, não um site independente da academia. A página contém afirmações sem fonte — por exemplo, orientação nutricional, treinos personalizados, planos mensais/trimestrais/anuais e aula experimental — e um botão com WhatsApp terminado em `0000`, que não foi confirmado. Esses dados não foram usados no site de demonstração.
 - Não encontrei domínio ou canal próprio acessível com fotos da academia. As imagens da galeria do Maps que consegui verificar foram publicadas por colaboradores da plataforma, então não foram copiadas.
 - `assets/hero-wide.svg` é uma ilustração vetorial provisória criada localmente e aparece apenas no destaque inicial. Substitua por foto publicada pela academia ou fornecida com autorização antes de transformar o demo em site oficial. Confirme também os direitos de uso de qualquer material recebido.
-- `assets/favicon.svg` e a assinatura tipográfica `TP` são elementos provisórios criados para este conceito, não são logotipo oficial.
+- `assets/logo-mark.svg` é uma reconstrução vetorial da pose dupla de bíceps vista na placa da imagem fornecida pelo usuário; não é o arquivo digital original. Confirme a fidelidade do desenho e o direito de uso com a academia antes de transformar o demo em site oficial.
+- A paleta vermelho/amarelo foi adaptada da mesma referência. Confirme os códigos oficiais das cores com a academia.
+- `assets/favicon.svg` usa a versão simplificada do símbolo redesenhado.
 
 ## Arquivos
 
@@ -42,4 +44,4 @@ Abra `http://localhost:4321/the-power-pirituba/`.
 
 ## Publicação
 
-Este site ainda não foi publicado. Publicar somente após aprovação explícita e confirmação dos dados pendentes.
+A atualização com o símbolo redesenhado ainda não foi publicada. Publicar somente após aprovação explícita e confirmação dos dados pendentes.

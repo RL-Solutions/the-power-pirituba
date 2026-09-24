@@ -1,9 +1,9 @@
 /* ============================================================
    brand.js — THE POWER | ACADEMIA DE MUSCULAÇÃO
    ------------------------------------------------------------
-   MODO PADRÃO: site de demonstração com direção baseada em Framer
-   (tipografia de pôster, tela escura, gradientes e CTA claro em pílula).
-   As cores do conceito são provisórias, pois a identidade oficial não foi localizada.
+   MODO PADRÃO: direção baseada em Framer, com a paleta vermelho/amarelo
+   e o símbolo de pose dupla de bíceps vistos na foto de referência fornecida.
+   O vetor do símbolo é uma reconstrução para o demo, não o arquivo oficial.
 
    CONFIRMADO (set/2026)
      - Nome "The Power" e categoria "Academia" — perfil do
@@ -22,8 +22,8 @@
      - Horários, planos, preços, modalidades além de musculação,
        aula experimental, público atendido, redes sociais, avaliação
        atual no Maps e acessibilidade da entrada.
-     - Cores e logotipo oficiais. O monograma e o laranja deste
-       conceito são provisórios e não foram apresentados como marca.
+     - Arquivo vetorial oficial do logotipo e códigos exatos da paleta.
+       A imagem enviada mostra vermelho e amarelo; o vetor é uma reconstrução.
      - Fotos próprias e autorização para uso no site oficial.
 
    IMAGENS
@@ -39,7 +39,9 @@
 
 window.BRAND = {
   nome: 'The Power',
-  sigla: 'TP',
+  logo: {
+    categoria: 'Academia'
+  },
 
   seo: {
     titulo: 'The Power | Academia de Musculação em Pirituba, São Paulo',
@@ -47,14 +49,15 @@ window.BRAND = {
   },
 
   tema: {
-    primary: '#f7f5f1',
-    'primary-hover': '#ffffff',
-    'primary-soft': '#392218',
-    'primary-tint': '#241913',
-    accent: '#f26936',
-    'accent-soft': '#392218',
-    'accent-ink': '#1b100b',
-    'on-primary': '#17110e',
+    primary: '#f4c542',
+    'primary-hover': '#ffda69',
+    'primary-soft': '#382b10',
+    'primary-tint': '#211b10',
+    accent: '#c8102e',
+    'accent-readable': '#ff6678',
+    'accent-soft': '#39131c',
+    'accent-ink': '#ffffff',
+    'on-primary': '#1b1608',
     canvas: '#111111',
     surface: '#191919',
     'surface-card': '#1d1d1d',
@@ -67,7 +70,7 @@ window.BRAND = {
     'border-strong': '#484643',
     'footer-bg': '#0c0c0c',
     'footer-fg': '#f7f5f1',
-    focus: '#ff8b5d'
+    focus: '#ffda69'
   },
 
   fontes: {
@@ -112,8 +115,8 @@ window.BRAND = {
     subtitulo: 'A The Power é uma academia na Vila Pereira Barreto. Consulte a equipe sobre horários, planos e modalidades disponíveis.',
     ctaPrimario: 'Ligar para a academia',
     ctaSecundario: 'Ver localização',
-    visualLabel: 'Ilustração provisória · foto oficial a incluir',
-    fotoAlt: 'Ilustração vetorial provisória com barra e anilhas de musculação'
+    visualLabel: 'Símbolo redesenhado · confirmar arquivo oficial',
+    fotoAlt: 'Símbolo vetorial de pose dupla de bíceps vista de costas, em vermelho e amarelo'
   },
 
   academia: {

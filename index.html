@@ -36,8 +36,11 @@
 <header class="header" data-header>
   <div class="wrap">
     <a class="logo" href="#top">
-      <span class="logo-mark" data-b="sigla" translate="no"></span>
-      <span data-b="nome" translate="no"></span>
+      <img class="logo-mark" src="assets/logo-mark.svg" alt="" width="48" height="48" aria-hidden="true">
+      <span class="logo-copy">
+        <span class="logo-name" data-b="nome" translate="no"></span>
+        <span class="logo-category" data-b="logo.categoria"></span>
+      </span>
     </a>
     <nav class="nav" id="nav-menu" data-nav-menu data-battr="aria-label:ui.navPrincipal">
       <a href="#academia" data-b="nav.academia"></a>
@@ -76,12 +79,15 @@
     </div>
 
     <div class="hero-art" data-reveal data-delay="1">
-      <img src="assets/hero-wide.svg" data-battr="alt:hero.fotoAlt" alt="" width="1600" height="900" fetchpriority="high">
+      <img src="assets/hero-wide.svg" alt="" width="1600" height="900" fetchpriority="high" aria-hidden="true">
       <div class="art-grid" aria-hidden="true"></div>
-      <svg class="art-dumbbell" viewBox="0 0 320 210" aria-hidden="true" focusable="false">
-        <path d="M64 105h192"/><path d="M94 54v102M74 69v72M226 54v102M246 69v72"/>
-        <path d="M94 105h132"/>
-      </svg>
+      <div class="hero-lockup" aria-hidden="true">
+        <img class="hero-logo" src="assets/logo-mark.svg" alt="" width="240" height="195">
+        <span class="hero-lockup-copy">
+          <span class="hero-brand-name" data-b="nome" translate="no"></span>
+          <span class="hero-brand-category" data-b="logo.categoria"></span>
+        </span>
+      </div>
       <span class="art-label" data-b="hero.visualLabel"></span>
       <span class="art-index" aria-hidden="true">01</span>
     </div>
@@ -185,8 +191,11 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a class="logo" href="#top">
-          <span class="logo-mark" data-b="sigla" translate="no"></span>
-          <span data-b="nome" translate="no"></span>
+          <img class="logo-mark" src="assets/logo-mark.svg" alt="" width="48" height="48" aria-hidden="true">
+          <span class="logo-copy">
+            <span class="logo-name" data-b="nome" translate="no"></span>
+            <span class="logo-category" data-b="logo.categoria"></span>
+          </span>
         </a>
         <p data-b="rodape.sobre"></p>
       </div>

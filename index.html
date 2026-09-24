@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-b="seo.titulo"></title>
+<meta name="description" data-battr="content:seo.descricao">
+<meta name="theme-color" content="#111111">
+<meta property="og:title" data-battr="content:seo.titulo">
+<meta property="og:description" data-battr="content:seo.descricao">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/hero-wide.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-b="ui.pularConteudo"></a>
+
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <g id="i-phone" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></g>
+    <g id="i-pin" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></g>
+    <g id="i-clock" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g>
+    <g id="i-dumbbell" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 6.5v11M3.5 9v5M17.5 6.5v11M20.5 9v5M6.5 12h11"/></g>
+    <g id="i-arrow" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></g>
+    <g id="i-star" fill="currentColor"><path d="m12 2.8 2.8 5.7 6.3.9-4.55 4.43 1.08 6.27L12 17.15l-5.63 2.95 1.08-6.27L2.9 9.4l6.3-.92L12 2.8Z"/></g>
+  </defs>
+</svg>
+
+<header class="header" data-header>
+  <div class="wrap">
+    <a class="logo" href="#top">
+      <span class="logo-mark" data-b="sigla" translate="no"></span>
+      <span data-b="nome" translate="no"></span>
+    </a>
+    <nav class="nav" id="nav-menu" data-nav-menu data-battr="aria-label:ui.navPrincipal">
+      <a href="#academia" data-b="nav.academia"></a>
+      <a href="#horarios" data-b="nav.horarios"></a>
+      <a href="#google" data-b="nav.google"></a>
+      <a href="#contato" data-b="nav.contato"></a>
+      <a class="btn btn-primary" data-battr="href:_links.telefone" data-b="nav.cta"></a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-primary" data-battr="href:_links.telefone" data-b="nav.cta"></a>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-menu" aria-expanded="false" data-battr="aria-label:ui.abrirMenu">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy" data-reveal>
+      <span class="eyebrow"><span class="eyebrow-dot"></span><span data-b="hero.eyebrow"></span></span>
+      <h1 data-bhtml="hero.tituloHtml"></h1>
+      <p class="lead" data-b="hero.subtitulo"></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" data-battr="href:_links.telefone">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-phone"/></svg>
+          <span data-b="hero.ctaPrimario"></span>
+        </a>
+        <a class="btn btn-ghost btn-lg" data-battr="href:_links.mapa" target="_blank" rel="noopener">
+          <span data-b="hero.ctaSecundario"></span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-art" data-reveal data-delay="1">
+      <img src="assets/hero-wide.svg" data-battr="alt:hero.fotoAlt" alt="" width="1600" height="900" fetchpriority="high">
+      <div class="art-grid" aria-hidden="true"></div>
+      <svg class="art-dumbbell" viewBox="0 0 320 210" aria-hidden="true" focusable="false">
+        <path d="M64 105h192"/><path d="M94 54v102M74 69v72M226 54v102M246 69v72"/>
+        <path d="M94 105h132"/>
+      </svg>
+      <span class="art-label" data-b="hero.visualLabel"></span>
+      <span class="art-index" aria-hidden="true">01</span>
+    </div>
+  </div>
+  <div class="hero-baseline" aria-hidden="true"></div>
+</section>
+
+<section class="section intro" id="academia">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow" data-b="academia.eyebrow"></span>
+      <h2 data-b="academia.titulo"></h2>
+      <p class="lead" data-b="academia.texto"></p>
+    </div>
+    <div class="info-grid" data-list="academia.itens">
+      <template>
+        <article class="info-card" data-reveal data-delay="{{@index}}">
+          <div class="info-card-top">
+            <span class="info-number">{{numero}}</span>
+            <span class="icon-badge"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-{{icone}}"/></svg></span>
+          </div>
+          <h3>{{titulo}}</h3>
+          <p>{{texto}}</p>
+        </article>
+      </template>
+    </div>
+  </div>
+</section>
+
+<section class="section hours-section" id="horarios">
+  <div class="wrap hours-layout">
+    <div class="hours-copy" data-reveal>
+      <span class="eyebrow" data-b="horarios.eyebrow"></span>
+      <h2 data-b="horarios.titulo"></h2>
+      <p class="lead" data-b="horarios.subtitulo"></p>
+      <a class="btn btn-primary" data-battr="href:_links.telefone">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-phone"/></svg>
+        <span data-b="horarios.cta"></span>
+      </a>
+    </div>
+    <div class="hours-card" data-reveal data-delay="1">
+      <div class="hours-card-heading">
+        <span class="hours-live"><span></span></span>
+        <span data-b="horarios.cartaoTitulo"></span>
+      </div>
+      <div class="hours-list" data-list="horarios.itens">
+        <template><div class="hours-row"><span>{{dia}}</span><strong>{{hora}}</strong></div></template>
+      </div>
+      <p class="hours-source" data-b="horarios.origem"></p>
+    </div>
+  </div>
+</section>
+
+<section class="section google-section" id="google">
+  <div class="wrap google-panel" data-reveal>
+    <div class="google-main">
+      <span class="eyebrow" data-b="google.eyebrow"></span>
+      <h2 data-b="google.titulo"></h2>
+    </div>
+    <a class="btn btn-light" data-battr="href:links.google" target="_blank" rel="noopener">
+      <span data-b="google.cta"></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-arrow"/></svg>
+    </a>
+  </div>
+</section>
+
+<section class="section contact-section" id="contato">
+  <div class="wrap contact-layout">
+    <div class="contact-copy" data-reveal>
+      <span class="eyebrow" data-b="contatoSecao.eyebrow"></span>
+      <h2 data-b="contatoSecao.titulo"></h2>
+      <p class="lead" data-b="contatoSecao.subtitulo"></p>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-lg" data-battr="href:_links.telefone">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-phone"/></svg>
+          <span data-b="contatoSecao.ctaTelefone"></span>
+        </a>
+        <a class="btn btn-ghost btn-lg" data-battr="href:_links.mapa" target="_blank" rel="noopener">
+          <span data-b="contatoSecao.ctaMapa"></span>
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="17" height="17"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="contact-card" data-reveal data-delay="1">
+      <div class="contact-row">
+        <span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></span>
+        <div><span class="contact-label" data-b="contatoSecao.chaves.endereco"></span><a data-battr="href:_links.mapa" target="_blank" rel="noopener" data-b="contato.endereco"></a></div>
+      </div>
+      <div class="contact-row">
+        <span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg></span>
+        <div><span class="contact-label" data-b="contatoSecao.chaves.telefone"></span><a data-battr="href:_links.telefone" data-b="contato.telefoneLabel"></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="#top">
+          <span class="logo-mark" data-b="sigla" translate="no"></span>
+          <span data-b="nome" translate="no"></span>
+        </a>
+        <p data-b="rodape.sobre"></p>
+      </div>
+      <div>
+        <h4 data-b="rodape.colLocal"></h4>
+        <div class="footer-links">
+          <a href="#horarios" data-b="nav.horarios"></a>
+      <a href="#google" data-b="nav.google"></a>
+          <a data-battr="href:_links.mapa" target="_blank" rel="noopener" data-b="contato.enderecoCurto"></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-b="rodape.colContato"></h4>
+        <div class="footer-links">
+          <a data-battr="href:_links.telefone" data-b="contato.telefoneLabel"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year></span> <span data-b="nome" translate="no"></span>. <span data-b="rodape.direitos"></span></span>
+      <span data-b="rodape.nota"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/brand.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@ Site de demonstração estático para a unidade da The Power na Vila Pereira Bar
 - O Google Maps aponta para a [página da academia na GeoLista](https://geolista.com.br/empresa/academia-the-power-academia-de-musculacao-pirituba/), que abriu em 24/09/2026 (HTTP 200). É um diretório de terceiros, não um site independente da academia. A página contém afirmações sem fonte — por exemplo, orientação nutricional, treinos personalizados, planos mensais/trimestrais/anuais e aula experimental — e um botão com WhatsApp terminado em `0000`, que não foi confirmado. Esses dados não foram usados no site de demonstração.
 - Não encontrei domínio ou canal próprio acessível com fotos da academia. As imagens da galeria do Maps que consegui verificar foram publicadas por colaboradores da plataforma, então não foram copiadas.
 - `assets/hero-wide.svg` é uma ilustração vetorial provisória criada localmente e aparece como fundo do destaque inicial. Substitua por foto publicada pela academia ou fornecida com autorização antes de transformar o demo em site oficial.
-- `assets/logo-mark.png` é o recorte do símbolo de bíceps da placa fornecida pelo usuário. No cabeçalho e no destaque, o nome e a categoria são recompostos em Anton, mantendo “THE POWER / ACADEMIA” e as cores vermelho/amarelo. `assets/logo-polished.png` é a exportação PNG transparente em alta resolução. É um acabamento de demonstração, não a matriz digital original da marca; confirme a tipografia oficial e os direitos de uso com a academia antes de transformar o demo em site oficial.
+- `assets/logo-mark.png` é o recorte do símbolo de bíceps da placa fornecida pelo usuário. No destaque, `assets/logo-polished.png` recompõe a assinatura completa “THE POWER / ACADEMIA” em PNG transparente de alta resolução, com relevo discreto para preservar o caráter da placa. É um acabamento de demonstração, não a matriz digital original da marca; confirme a tipografia oficial e os direitos de uso com a academia antes de transformar o demo em site oficial.
 - A paleta vermelho/amarelo foi adaptada da mesma referência. Confirme os códigos oficiais das cores com a academia.
 - `assets/favicon.svg` usa o recorte do símbolo extraído da referência.
 
@@ -44,4 +44,4 @@ Abra `http://localhost:4321/the-power-pirituba/`.
 
 ## Publicação
 
-A atualização com o acabamento tipográfico da marca ainda não foi publicada. Publicar somente após aprovação explícita e confirmação dos dados pendentes.
+Site publicado em [rl-solutions.github.io/the-power-pirituba](https://rl-solutions.github.io/the-power-pirituba/) pelo workflow `.github/workflows/pages.yml`. Confirme com a academia os dados pendentes antes de transformar o demo em site oficial.

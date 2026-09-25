@@ -115,7 +115,7 @@ window.BRAND = {
     subtitulo: 'A The Power é uma academia na Vila Pereira Barreto. Consulte a equipe sobre horários, planos e modalidades disponíveis.',
     ctaPrimario: 'Ligar para a academia',
     ctaSecundario: 'Ver localização',
-    visualLabel: 'Composição baseada na placa enviada'
+    visualLabel: 'Logotipo recomposto da placa de referência'
   },
 
   academia: {

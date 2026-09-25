@@ -1,13 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <rect width="64" height="64" rx="13" fill="#111111"/>
-  <g transform="translate(5 9) scale(.225)" fill="#c8102e">
-    <path d="M44 55c-6-8-8-19-7-30 1-11 7-18 16-17 10 1 15 9 14 19l-2 15-3 13-9 12Z"/>
-    <path d="M196 55c6-8 8-19 7-30-1-11-7-18-16-17-10 1-15 9-14 19l2 15 3 13 9 12Z"/>
-    <path d="M101 20c0-12 8-20 19-20s19 8 19 20c0 8-4 14-11 18v8h-16v-8c-7-4-11-10-11-18Z"/>
-    <path d="M101 51c-13 0-23-4-34-7-12-4-20 0-24 9-5 11 0 21 10 24 11 4 20-1 30-8l13 14 11-11Z"/>
-    <path d="M139 51c13 0 23-4 34-7 12-4 20 0 24 9 5 11 0 21-10 24-11 4-20-1-30-8l-13 14-11-11Z"/>
-    <path d="M98 45c5-6 12-9 22-9s17 3 22 9l13 18-8 15c-4 8-4 16-1 26l10 37c-10 7-22 11-36 11s-26-4-36-11l10-37c3-10 3-18-1-26l-8-15 13-18Z"/>
-  </g>
-  <path d="M18 51h28" stroke="#f4c542" stroke-linecap="round" stroke-width="3"/>
-  <rect x="20" y="56" width="24" height="3" rx="1.5" fill="#f4c542"/>
+  <image href="logo-mark.png" x="5" y="4" width="54" height="46" preserveAspectRatio="xMidYMid meet"/>
+  <path d="M18 55h28" stroke="#d0ac39" stroke-linecap="round" stroke-width="3"/>
 </svg>

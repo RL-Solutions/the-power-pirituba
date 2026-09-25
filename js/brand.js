@@ -2,8 +2,8 @@
    brand.js — THE POWER | ACADEMIA DE MUSCULAÇÃO
    ------------------------------------------------------------
    MODO PADRÃO: direção baseada em Framer, com a paleta vermelho/amarelo
-   e o símbolo de pose dupla de bíceps vistos na foto de referência fornecida.
-   O vetor do símbolo é uma reconstrução para o demo, não o arquivo oficial.
+   e o logotipo THE POWER extraído da placa de referência fornecida.
+   Os arquivos de imagem preservam o desenho e o lettering visíveis na placa.
 
    CONFIRMADO (set/2026)
      - Nome "The Power" e categoria "Academia" — perfil do
@@ -22,8 +22,8 @@
      - Horários, planos, preços, modalidades além de musculação,
        aula experimental, público atendido, redes sociais, avaliação
        atual no Maps e acessibilidade da entrada.
-     - Arquivo vetorial oficial do logotipo e códigos exatos da paleta.
-       A imagem enviada mostra vermelho e amarelo; o vetor é uma reconstrução.
+     - Arquivo digital original do logotipo e códigos exatos da paleta.
+       Os PNGs do demo foram extraídos da foto da placa enviada pelo usuário.
      - Fotos próprias e autorização para uso no site oficial.
 
    IMAGENS
@@ -115,8 +115,8 @@ window.BRAND = {
     subtitulo: 'A The Power é uma academia na Vila Pereira Barreto. Consulte a equipe sobre horários, planos e modalidades disponíveis.',
     ctaPrimario: 'Ligar para a academia',
     ctaSecundario: 'Ver localização',
-    visualLabel: 'Símbolo redesenhado · confirmar arquivo oficial',
-    fotoAlt: 'Símbolo vetorial de pose dupla de bíceps vista de costas, em vermelho e amarelo'
+    visualLabel: 'Logotipo extraído da placa de referência',
+    fotoAlt: 'Logotipo THE POWER Academia extraído da placa de referência enviada pelo usuário'
   },
 
   academia: {

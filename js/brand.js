@@ -1,9 +1,18 @@
 /* ============================================================
    brand.js — THE POWER | ACADEMIA DE MUSCULAÇÃO
    ------------------------------------------------------------
-   MODO PADRÃO: direção baseada em Framer, com a paleta vermelho/amarelo
-   e o símbolo extraído da placa de referência fornecida.
-   O lettering é recomposto em tipografia condensada para o demo.
+   REFERÊNCIA VISUAL: hierarquia editorial e cartões gráficos da demonstração
+   academia-whitelabel. Nenhum texto, afirmação, cor ou imagem dessa referência
+   é reutilizado.
+
+   MANTIDO DA MARCA
+     - Nome The Power, símbolo de bíceps e paleta vermelho/amarelo enviados
+       pelo usuário.
+     - Endereço, telefone e dados públicos confirmados da unidade.
+
+   MODERNIZADO
+     - Títulos em caixa alta e display condensado, fatos públicos no destaque,
+       cartões gráficos e ritmo entre seções inspirados pela referência local.
 
    CONFIRMADO (set/2026)
      - Nome "The Power" e categoria "Academia" — perfil do
@@ -74,7 +83,7 @@ window.BRAND = {
   },
 
   fontes: {
-    display: "'Archivo Black', Impact, sans-serif",
+    display: "'Anton', Impact, sans-serif",
     corpo: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
   },
 
@@ -111,11 +120,16 @@ window.BRAND = {
 
   hero: {
     eyebrow: 'Musculação · Pirituba, São Paulo',
-    tituloHtml: 'O seu treino.<br><em>Com intenção.</em>',
+    tituloHtml: 'O SEU<br>TREINO.<br><em>COM INTENÇÃO.</em>',
     subtitulo: 'A The Power é uma academia na Vila Pereira Barreto. Consulte a equipe sobre horários, planos e modalidades disponíveis.',
     ctaPrimario: 'Ligar para a academia',
     ctaSecundario: 'Ver localização',
-    visualLabel: 'Logotipo recomposto da placa de referência'
+    visualLabel: 'Logotipo recomposto da placa de referência',
+    destaques: [
+      { valor: 'PIRITUBA', rotulo: 'Vila Pereira Barreto' },
+      { valor: 'MUSCULAÇÃO', rotulo: 'categoria no perfil do Maps' },
+      { valor: '05:30–23:00', rotulo: 'seg. a sex. · horário publicado' }
+    ]
   },
 
   academia: {

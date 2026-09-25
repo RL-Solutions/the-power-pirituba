@@ -1,6 +1,6 @@
 # The Power — academia de musculação em Pirituba
 
-Site de demonstração estático para a unidade da The Power na Vila Pereira Barreto, em São Paulo. Modo padrão, com direção visual baseada em `Framer`, tela escura, símbolo de pose dupla de bíceps e cores vermelho e amarelo inspirados na referência enviada pelo usuário.
+Site de demonstração estático para a unidade da The Power na Vila Pereira Barreto, em São Paulo. O leiaute usa como inspiração a hierarquia e os cartões da demonstração local de academia, preservando o nome, o símbolo de dupla pose de bíceps e a paleta vermelho/amarelo da The Power. Não reutiliza conteúdo nem imagens da referência.
 
 ## Informações confirmadas
 
@@ -8,6 +8,11 @@ Site de demonstração estático para a unidade da The Power na Vila Pereira Bar
 - **Endereço:** Av. Miguel de Castro, 57, Vila Pereira Barreto, São Paulo/SP, CEP 02950-000 — [Google Maps](https://www.google.com/maps/place/The+Power/@-23.4831898,-46.7218722,17z/data=!16s%2Fg%2F1pv19p80y).
 - **Telefone:** (11) 4306-5898 — [Google Maps](https://www.google.com/maps/place/The+Power/@-23.4831898,-46.7218722,17z/data=!16s%2Fg%2F1pv19p80y).
 - **Horários publicados:** segunda a sexta, 05:30–23:00; sábado, 09:00–17:00; domingo, 10:00–13:00 — [Waze](https://www.waze.com/live-map/directions/br/sp/the-power?to=place.ChIJjdhIBg35zpQRaAcC_UHItEk) e página GeoLista que o perfil do Maps indica. Confirmar antes da visita.
+
+## Mantido da marca e modernizado
+
+- **Mantido:** nome The Power, símbolo double biceps e vermelho/amarelo enviados pelo usuário; endereço, telefone e horários com fonte anotada.
+- **Modernizado:** título de impacto em caixa alta, destaques com fatos públicos, cartões gráficos e ritmo das seções inspirados pela demonstração `academia-whitelabel`. A referência foi usada apenas como inspiração visual.
 
 ## A confirmar com a academia
 
